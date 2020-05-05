@@ -1,38 +1,155 @@
-.App {
+.PanelHeader {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #c6cacf;
+  padding: 8px;
+}
+
+.papers__panel {
+  background: #fff;
+  padding: 15px;
+  min-width: 344px;
+  flex-grow: 1;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+* {
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+.text {
+  padding-left: 10px;
+}
+
+.container {
+  background-color: #fff;
+}
+
+.section1 {
+  width: 100%;
+  background-color: rgb(70, 150, 229);
+  color: rgb(251, 251, 251);
+  height: 310px;
+  margin-top: 20px;
+}
+
+.p1 {
+  color: rgb(251, 251, 251);
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  padding-right: 20px;
+  padding-left: 750px;
+}
+
+.lead {
+  padding-left: 120px;
+}
+
+.bouton {
+  color: rgb(251, 251, 251);
+  background-color: rgb(70, 150, 229);
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-size: 13px;
+  font-weight: 400px;
+  line-height: 40px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 5px;
+  width: 50px;
+  height: 40px;
+}
+
+.position-btn {
+  padding-right: 20px;
+  padding-left: 850px;
+}
+
+.input1 {
+  margin-right: 100px;
+  margin-left: 20px;
+  width: 700px;
+  height: 45px;
+}
+
+.section2 {
+  background-color: rgb(251, 251, 251);
+  width: 100%;
+  height: 350px;
+}
+
+.text-section2 {
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  color: rgb(131, 131, 131);
+  padding-top: 10px;
+  padding-left: 80px;
+}
+
+.hr-section2 {
+  width: 100px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#myDIV {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+button {
+  color: rgb(131, 131, 131);
+  background-color: rgb(251, 251, 251);
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-size: 13px;
+  font-weight: 400px;
+  line-height: 40px;
+  border-style: solid;
+  border-color: rgb(131, 131, 131);
+  width: 100px;
+  height: 40px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.text-item {
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  color: rgb(131, 131, 131);
+  padding-top: 50px;
+}
+.None{
+  display: none;
+}
+.Block{
+  display: block;
+}
+
+.footer-block {
+  background-color: rgb(248, 248, 248);
+  width: 820px;
+  height: 250px;
+}
+
+.text3 {
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: rgb(219, 212, 204);
+  padding-top: 30px;
+}
+
+.logo {
+  padding-top: 30px;
+  padding-left: 50%;
+  padding-right: 50%;
+  width: 30px;
+  height: 20px;
 }
